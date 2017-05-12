@@ -33,6 +33,6 @@ SWARM_DESCRIPTION = {
     ],
     "predictedField": "kw_energy_consumption"#field which is to be predicted
   },
-  "iterationCount": 1,#-1 indicates all rows 1 indicates 1 row
-  "swarmSize": "small"#small is for debugging medium is fine large takes a lot of time and evaluates more models
+  "iterationCount": -1,#-1 indicates all rows 1 indicates 1 row
+  "swarmSize": "medium"#small is for debugging medium is fine large takes a lot of time and evaluates more models
 }
