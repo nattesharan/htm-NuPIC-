@@ -1,4 +1,4 @@
-#define the model of the dataset
+#define the model of the dataset or it is python dict configuration file
 SWARM_DESCRIPTION = {
   "includedFields": [ #information regarding the fields
     {
@@ -12,7 +12,7 @@ SWARM_DESCRIPTION = {
       "minValue": 0.0
     }
   ],
-  "streamDef": { #infomation about the prediction
+  "streamDef": { #defines fro where the input is coming from
     "info": "kw_energy_consumption",
     "version": 1,
     "streams": [
@@ -33,6 +33,6 @@ SWARM_DESCRIPTION = {
     ],
     "predictedField": "kw_energy_consumption"#field which is to be predicted
   },
-  "iterationCount": 1,#1 indicates all rows -1 indicates 1 row
-  "swarmSize": "medium"#small is for debugging medium is fine large takes a lot of time
+  "iterationCount": -1,#-1 indicates all rows 1 indicates 1 row
+  "swarmSize": "medium"#small is for debugging medium is fine large takes a lot of time and evaluates more models
 }

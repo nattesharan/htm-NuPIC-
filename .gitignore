@@ -1,4 +1,6 @@
 model_params/
 swarm/
 venv/
+.vscode/
 rec-center-hourly_out.csv
+*.pyc
