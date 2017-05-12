@@ -15,6 +15,5 @@ def swarm(inputFile):
         outDir =swarmWorkDir,
         permWorkDir =swarmWorkDir
     )
-    pass
 if __name__ == '__main__':
     swarm('rec-center-hourly.csv')
